@@ -1,0 +1,32 @@
+.home{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.heading{
+    display: flex;
+    font-size: 10vh;
+    font-weight: 600;
+    color: #0e3775;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    height: 15vh;
+    justify-content: center;
+   
+
+
+}
+
+.home__row{
+    display: flex;
+    z-index: 1;
+    margin: 0 5px;
+}
+
+.home__image{
+    width: 100%;
+
+    z-index: -1;
+    margin-bottom: -50px;
+
+}
