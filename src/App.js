@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./Pages/Home/Home";
 import Contants from "./Pages/Contants/Contants";
-import Axios from "axios"
+
 
 import Checkout from "./Pages/Checkout/Checkout";
 import Login from "./Pages/Login/Login";
@@ -14,16 +14,6 @@ import Bhar from "./components/barchart";
 
 function App() {
 
-  const[data,SetData]=useState("");
-
-  const getData=async()=>{
-    const response=await Axios.get("http://localhost:5000/getData");
-    SetData(response.data);
-  }
-
-  useEffect(()=>{
-    getData()
-  },[]);
 
 
   const [, dispatch] = useStateValue();
@@ -66,7 +56,7 @@ function App() {
             <Contants/>
             
           </Route>
-          {data}
+         
         </Switch>
       </div>
     </Router>
