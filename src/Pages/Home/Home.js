@@ -15,7 +15,7 @@ const Home = () => {
          src="https://jefflambert.com/wpb/wp-content/uploads/2010/09/landing_dannon-products.png"
          alt=""
        />
-       <div>mounesh</div>
+      
       
       <div className="home__row">
         <Product
