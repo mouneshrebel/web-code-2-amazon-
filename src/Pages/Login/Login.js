@@ -17,7 +17,6 @@ const Login = () => {
       })
       .catch((err) => alert(err.message));
   };
-  
   const register = (event) => {
     event.preventDefault();
     auth
@@ -30,7 +29,7 @@ const Login = () => {
       <Link to="/">
         <img
           className="login__logo"
-          src="https://img.freepik.com/free-vector/dairy-farm-text-label_1308-89775.jpg?size=626&ext=jpg&uid=R101342376&ga=GA1.1.1061175198.1706787495&semt=ais"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
           alt=""
         />
       </Link>
@@ -54,12 +53,12 @@ const Login = () => {
           </button>
         </form>
         <p>
-          By signing-in you agree to  ARKM Dairy  farm manager of Use & Sale. Please
+          By signing-in you agree to Amazon's Conditions of Use & Sale. Please
           see our Privacy Noticy, our Cookies Notice and our Internet-Based Ads
           Notice.
         </p>
         <button className="login__registerButton" onClick={register}>
-          Create your ARKM Dairy Farm Account
+          Create your Amazon Account
         </button>
       </div>
     </div>

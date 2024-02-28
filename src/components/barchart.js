@@ -29,7 +29,7 @@ const option = {
         },
         title:{
             display:true,
-            text:"ARKM Dairy Manager"
+            text:"Amazon "
         }
     }
 }

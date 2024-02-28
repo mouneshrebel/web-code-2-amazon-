@@ -26,14 +26,14 @@ const Contants = () => {
           <span>Help</span>
           <span>Share</span>
           <span>Carrers</span>
-          <span>Arkm Dairy</span>
+          <span>Amazon</span>
           <span>Work</span>
         </div>
         <div className="footer-section-columns">
           <span>8610016443</span>
-          <span>ARKM@Dairy.com</span>
-          <span>Mounesh@Dairy.com</span>
-          <span>contact@Dairy.com</span>
+          <span>Amazon@gmail.com</span>
+          <span>Mounesh@amazon.com</span>
+          <span>contact@amazon.com</span>
         </div>
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>

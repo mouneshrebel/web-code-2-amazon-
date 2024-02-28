@@ -6,6 +6,7 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import { useStateValue } from "../StateProvider/StateProvider";
 import { auth } from "../../firebase";
 
+
 const Header = () => {
   const [{ basket, user }] = useStateValue();
   const login = () => {
@@ -18,7 +19,7 @@ const Header = () => {
       <Link to="/">
         <img
           className="header__logo"
-          src="https://img.freepik.com/free-vector/dairy-farm-text-label_1308-89775.jpg?size=626&ext=jpg&uid=R101342376&ga=GA1.1.1061175198.1706787495&semt=ais"
+          src="https://pngimg.com/uploads/amazon/amazon_PNG25.png"
           alt="logo"
         />
       </Link>
@@ -43,8 +44,8 @@ const Header = () => {
         </Link>
         <Link to="/" className="header__link">
           <div className="header__option">
-            <span className="header__optionLineOne">ARKM</span>
-            <span className="header__optionLineTwo">Dairy</span>
+            <span className="header__optionLineOne">Your</span>
+            <span className="header__optionLineTwo">Prime</span>
           </div>
         </Link>
         <Link to="/checkout" className="header__link">
